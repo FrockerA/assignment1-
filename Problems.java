@@ -87,18 +87,19 @@ public class Problems {
 
     public static void main(String[] args) {
         // Test cases
-        int[] arr = {5, 3, 9, 1, 7};
+        int[] arr = {10, 1, 32, 3, 45};
+        int[] arrr = {3, 2, 4, 1, 5};
         int n = arr.length;
         System.out.println("Minimum: " + findMinimum(arr, n));
-        System.out.println("Average: " + findAverage(arr, n));
+        System.out.println("Average: " + findAverage(arrr, n));
         System.out.println("Is 7 prime? " + isPrime(7, 2));
         System.out.println("Factorial of 5: " + factorial(5));
-        System.out.println("10th Fibonacci number: " + fibonacci(10));
-        System.out.println("2^4: " + power(2, 4));
-        String str = "abc";
+        System.out.println("17th Fibonacci number: " + fibonacci(17));
+        System.out.println("2^10: " + power(2, 10));
+        String str = "IOX";
         System.out.println("Permutations of " + str + ":");
         permute(str, 0, str.length()-1);
-        System.out.println("Is '123abc' consisting of digits? " + consistsOfDigits("123abc"));
-        System.out.println("GCD of 24 and 36: " + gcd(24, 36));
+        System.out.println("Is '123a12' consisting of digits? " + consistsOfDigits("123a12"));
+        System.out.println("GCD of 32 and 48: " + gcd(32, 48));
     }
 }
